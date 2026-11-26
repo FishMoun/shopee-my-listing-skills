@@ -1,0 +1,4 @@
+interface:
+  display_name: "虾皮马来站待上架商品审查"
+  short_description: "按马来站规则检查商品上架合规，并逐规格核算含采购物流和平台费用的总成本与利润率"
+  default_prompt: "用 $shopee-my-listing-review 审查我指定的马来站待上架商品，逐规格列出违规风险、取数来源、总成本与利润率。"
