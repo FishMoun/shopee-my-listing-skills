@@ -10,7 +10,7 @@
 
 | Skill | 当前版本 | 示例指令 |
 | --- | --- | --- |
-| [妙手商品文案优化](skills/miaoshou-listing-edit/SKILL.md) | 1.1.0 | 用 `$miaoshou-listing-edit` 为指定采集箱商品优化英文标题、描述和 SKU 名称，先给我可复制文本。 |
+| [妙手商品文案优化](skills/miaoshou-listing-edit/SKILL.md) | 1.2.0 | 用 `$miaoshou-listing-edit` 优化当前商品的英文标题、描述和 SKU 名称，直接填入编辑器后告诉我。 |
 | [商品图英文翻译与验收](skills/product-image-localization/SKILL.md) | 1.0.0 | 用 `$product-image-localization` 把这批商品图改成英文并另存，逐张确认成品小于 2,000,000 字节。 |
 | [Shopee 马来站按模板定价与填价](skills/shopee-my-pricing-fill/SKILL.md) | 1.0.0 | 用 `$shopee-my-pricing-fill` 按我的定价模板计算各规格 RM 售价，填完逐项回读，停在确认发布前。 |
 | [Shopee 马来站上架审查](skills/shopee-my-listing-review/SKILL.md) | 1.0.0 | 用 `$shopee-my-listing-review` 只读检查指定商品，逐 SKU 列出合规风险、买家展示问题和成本利润率。 |
@@ -18,6 +18,7 @@
 
 ## 版本记录
 
+- 妙手商品文案优化 1.2.0（2026-11-27）默认填写商品编辑器后直接汇报，保留未保存的编辑页面。明确要求保存时才提交并回读。
 - 妙手商品文案优化 1.1.0（2026-11-27）新增 QiQi's Life Picks 的英文开场白、场景表情和颜文字，并在保存后回读核对店铺名、字符与换行。
 
 ## 运行条件
